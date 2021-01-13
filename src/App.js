@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import GroupArray from './GroupArray';
 
 function App() {
+  console.log("Group Array: ", GroupArray([1, 2, 3, 4, 5], 2));
   return (
     <div className="App">
       <header className="App-header">
